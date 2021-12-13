@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+}
+
+.header-left {
+    font-weight: bolder;
+}
+
+.header-right {
+    display: flex;
+}
+
+.header-link {
+    padding: 0 8px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link {
+    padding: 0 16px;
+}
