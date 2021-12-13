@@ -26,20 +26,26 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-a:hover {
-    color: green;
-}
-
 .header-left {
     font-size: 2em;
 }
 
 .header-right {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .header-link {
-    padding: 0 8px;
+    padding: 1vh 1vw;
+    background-color: #28282a;
+    color: white;
+    transition: background-color, color, .5s;
+}
+
+.header-link:hover {
+    background-color: white;
+    color: #28282a;
+    border-radius: .25em;
 }
 
 .socials {
@@ -49,5 +55,5 @@ a:hover {
 }
 
 .social-link {
-    padding: 0 16px;
+    padding: 0.5vh 1vw;
 }
