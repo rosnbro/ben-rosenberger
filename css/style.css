@@ -21,6 +21,10 @@ footer {
     padding: 2vh 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header-left {
     font-size: 2em;
     color: white;
@@ -120,7 +124,7 @@ footer {
     padding: 7vh 0;
 }
 
-p {
+.descriptionLine {
     padding: 1em 0 0;
 }
 
@@ -128,15 +132,46 @@ p {
     background-color: #28282a;
 }
 
-.rollCardAlbum {
-    /*display: flex;
-    flex-wrap: wrap;*/
+.heroImg {
+    width: 90vw;
+    position: relative;
+}
+
+.pageHero .page-title {
+    position: absolute;
+    top: 40vh;
+    text-align: center;
+}
+
+.page-subtitle {
+    position: absolute;
+    top: 45vh;
+    text-align: center;
+    color: white;
+}
+
+.cardBoard {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 0 10vh;
 }
 
-.rollCard, .cardPhoto, .cardTitle {
+.rollCard {
     width: 40vw;
     background-color: white;
+    margin: 5vh;
+}
+
+.cardPhoto {
+    width: 40vw;
+}
+
+.cardTitle {
+    text-align: center;
+    padding: 2vh 5vw;
+    background-color: white;
+    margin: 0;
+    color: black;
 }
 
 .socials {
