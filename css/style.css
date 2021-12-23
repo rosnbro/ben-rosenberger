@@ -135,18 +135,26 @@ a {
 .heroImg {
     width: 90vw;
     position: relative;
+    margin: auto;
+    display: block;
 }
 
 .pageHero .page-title {
     position: absolute;
-    top: 40vh;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    justify-content: center;
     text-align: center;
 }
 
 .page-subtitle {
     position: absolute;
-    top: 45vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+    justify-content: center;
     color: white;
 }
 
@@ -159,7 +167,7 @@ a {
 .rollCard {
     width: 40vw;
     background-color: white;
-    margin: 5vh;
+    margin: 5vh 5vw;
 }
 
 .cardPhoto {
