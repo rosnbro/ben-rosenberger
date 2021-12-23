@@ -124,6 +124,15 @@ p {
     padding: 1em 0 0;
 }
 
+.rollCardAlbum {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rollCard, .cardPhoto {
+    width: 30vw;
+}
+
 .socials {
     display: flex;
     align-items: center;
