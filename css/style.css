@@ -10,6 +10,7 @@ header {
     background-color: #28282a;
     color: white;
     padding: 3vh 3vw;
+    opacity: 80%;
 }
 
 footer {
@@ -18,16 +19,14 @@ footer {
     left: 0;
     background-color: #28282a;
     width: 100%;
-    padding: 2vh;
-}
-
-a:link, a:visited {
-    color: white;
-    text-decoration: none;
+    padding: 2vh 0;
+    opacity: 80%;
 }
 
 .header-left {
     font-size: 2em;
+    color: white;
+    text-decoration: none;
 }
 
 .header-right {
@@ -38,10 +37,12 @@ a:link, a:visited {
 .header-link {
     display: inline-block;
     width: 5vw;
-    padding: 1vh 0.5vw;
+    min-width: 85px;
+    padding: 0.5em 0.5em;
     margin: 0 0.25vw;
     background-color: #28282a;
     color: white;
+    text-decoration: none;
     transition: background-color, color, .5s;
     text-align: center;
 }
@@ -58,6 +59,43 @@ a:link, a:visited {
     border-radius: .25em;
 }
 
+.single-page {
+    height: 100%;
+    overflow: hidden;
+}
+
+.background {
+    object-position: 50%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.page-nav {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 20vh;
+}
+
+.page-box {
+    background-color: #28282a;
+    color: white;
+    opacity: 70%;
+    border-radius: 0.5em;
+    padding: 2vh 2vw;
+    min-width: 300px;
+    margin: 1vh 1vw;
+}
+
+.body-link {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
 .socials {
     display: flex;
     align-items: center;
@@ -66,4 +104,7 @@ a:link, a:visited {
 
 .social-link {
     padding: 0.5vh 1vw;
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
