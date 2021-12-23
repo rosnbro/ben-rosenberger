@@ -73,7 +73,7 @@ footer {
 .page-nav {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: left;
     width: 100%;
     justify-content: space-around;
     position: absolute;
@@ -83,14 +83,15 @@ footer {
 .page-box {
     background-color: #28282a;
     color: white;
+    text-decoration: none;
     opacity: 70%;
     border-radius: 0.5em;
     padding: 2vh 2vw;
-    min-width: 300px;
+    min-width: 325px;
     margin: 1vh 1vw;
 }
 
-.body-link {
+.page-title {
     color: white;
     text-decoration: none;
     font-size: 2em;
