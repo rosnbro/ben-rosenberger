@@ -128,54 +128,55 @@ a {
     padding: 1em 0 0;
 }
 
-.photos-content {
-    background-color: #28282a;
-}
-
 .heroImg {
     width: 90vw;
+    max-height: 80vh;
+    object-fit: cover;
     position: relative;
     margin: auto;
     display: block;
 }
 
-.pageHero .page-title {
+.heroText {
     position: absolute;
-    top: 45%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%, -45%);
+    transform: translate(-50%, -25%);
     justify-content: center;
     text-align: center;
-}
-
-.page-subtitle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    justify-content: center;
+    /*background-color: #28282a;*/
     color: white;
+    font-size: 5em;
+    min-width: 175px;
+    margin: 0;
+    padding: 3vh 4vw 3vh;
+    border-radius: 0.25em;
+    opacity: 100%;
 }
 
 .cardBoard {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     padding: 0 0 10vh;
 }
 
 .rollCard {
     width: 40vw;
+    min-width: 500px;
     background-color: white;
     margin: 5vh 5vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cardPhoto {
     width: 40vw;
+    min-width: 500px;
 }
 
 .cardTitle {
     text-align: center;
+    font-size: 1.25em;
     padding: 2vh 5vw;
     background-color: white;
     margin: 0;
