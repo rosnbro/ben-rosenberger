@@ -11,7 +11,7 @@ header {
     align-items: center;
     background-color: #28282a;
     color: white;
-    padding: 3vh 3vw;
+    padding: 3vh 5vw;
 }
 
 footer {
@@ -152,6 +152,7 @@ a {
 .heroImg {
     width: 90vw;
     max-height: 75vh;
+    filter: brightness(80%);
     object-fit: cover;
     margin: auto;
     display: block;
@@ -182,7 +183,7 @@ a {
 }
 
 .rollCard {
-    width: 40vw;
+    /*width: 40vw;*/
     min-width: 500px;
     background-color: white;
     margin: 5vh 5vw;
@@ -191,6 +192,7 @@ a {
 
 .cardPhoto {
     width: 40vw;
+    height: auto;
     min-width: 500px;
 }
 
@@ -213,21 +215,32 @@ a {
 }
 
 .postCard {
-    display: flex;
-    flex-direction: row;
-    width: 80vw;
-    margin: 0 5vw;
+    margin: 5vh 5vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.post {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vh 5vw;
+
+    width: fit-content;
+}
+
 .postPhoto {
+    height: 30vh;
+    min-width: 400px;
+    object-fit: cover;
+    padding: 0 2vw 2vh 0;
+}
+
+.postDescription {
     width: 40vw;
-    min-width: 500px;
+    min-width: 400px;
 }
 
 .postTitle {
     font-size: 2em;
-
 }
 
 .postText {
